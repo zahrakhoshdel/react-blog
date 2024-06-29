@@ -5,8 +5,10 @@ import {
   interpolate,
 } from "react-ui-animate";
 
+import Navbar from "../Header/Navbar";
 import HeaderButton from "../Header/HeaderButton";
 import logo from "../../assets/logo-vgv-white.svg";
+import classes from "./MainHeader.module.css";
 
 const Header = () => {
   const y = useAnimatedValue(0, { immediate: true });
@@ -32,6 +34,7 @@ const Header = () => {
     <AnimatedBlock
       style={{
         backgroundColor: "#020f30",
+        color: "#ffffff",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
@@ -53,9 +56,9 @@ const Header = () => {
         }}
       />
 
-      <div style={{ color: "#ffffff" }}>
-        <div style={{ display: "inline-block" }}>
-          <h3>menus</h3>
+      <div>
+        <div className={classes["nav-area"]}>
+          <Navbar />
         </div>
 
         <HeaderButton />
