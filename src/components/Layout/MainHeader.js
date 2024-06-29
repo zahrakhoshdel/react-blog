@@ -5,9 +5,10 @@ import {
   interpolate,
 } from "react-ui-animate";
 
+import HeaderButton from "../Header/HeaderButton";
 import logo from "../../assets/logo-vgv-white.svg";
 
-const MainHeader = () => {
+const Header = () => {
   const y = useAnimatedValue(0, { immediate: true });
 
   useScroll(({ scrollY }) => {
@@ -30,8 +31,9 @@ const MainHeader = () => {
   return (
     <AnimatedBlock
       style={{
-        backgroundColor: "#060338",
+        backgroundColor: "#020f30",
         display: "flex",
+        justifyContent: "space-between",
         alignItems: "center",
         paddingLeft: 100,
         paddingRight: 100,
@@ -51,23 +53,15 @@ const MainHeader = () => {
         }}
       />
 
-      <div
-        style={{
-          fontWeight: "bold",
-          fontSize: 20,
-          marginLeft: 20,
-          flex: 1,
-          color: "#ffffff",
-        }}
-      >
-        <h1>menus</h1>
-      </div>
+      <div style={{ color: "#ffffff" }}>
+        <div style={{ display: "inline-block" }}>
+          <h3>menus</h3>
+        </div>
 
-      <div style={{ color: "#ffffff", cursor: "pointer" }}>
-        <h2>Button</h2>
+        <HeaderButton />
       </div>
     </AnimatedBlock>
   );
 };
 
-export default MainHeader;
+export default Header;
