@@ -1,3 +1,4 @@
+import FeaturedPosts from "../Featured/FeaturedPosts";
 import classes from "./FeaturedSection.module.css";
 
 const FeaturedSection = () => {
@@ -10,6 +11,7 @@ const FeaturedSection = () => {
         <div className={classes["heading-2"]}>
           <h4>Featured Stories</h4>
         </div>
+        <FeaturedPosts />
       </div>
     </div>
   );
