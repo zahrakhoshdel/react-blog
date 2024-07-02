@@ -1,14 +1,15 @@
 import { postsData } from "./postsData";
+import PostItem from "./PostItem";
+
 import classes from "./FeaturedPosts.module.css";
 
 const FeaturedPosts = () => {
   return (
     <ul>
       {postsData.map((post, index) => {
-        console.log(post);
         return (
           <div className={classes["collection-item"]}>
-            <h1>{post.title}</h1>
+            <PostItem post={post} key={index} />;
           </div>
         );
       })}

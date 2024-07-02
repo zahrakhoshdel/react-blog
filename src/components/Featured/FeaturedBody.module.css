@@ -1,0 +1,93 @@
+.blog-body {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+}
+
+.panel-title {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.panel-title a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+
+.panel-title h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+
+.panel-title a:hover,
+.panel-title h3:hover {
+  color: #2448de;
+}
+
+.panel-footer {
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}
+
+.panel-footer .panel-meta-text {
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 0.25rem;
+  margin-right: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  flex-direction: column;
+  display: flex;
+}
+
+.panel-footer .panel-meta-text .text {
+  font-weight: 300;
+  display: inline-block;
+}
+
+.panel-footer .panel-meta-text .author {
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.panel-footer .block {
+  align-self: center;
+}
+
+.panel-footer .block a {
+  padding-right: 10px;
+  max-width: 100%;
+  display: inline-block;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+
+.panel-footer .block .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  border: 0;
+}

@@ -43,6 +43,7 @@ const Header = () => {
         position: "fixed",
         width: "100%",
         boxShadow: boxShadow,
+        zIndex:"9999"
       }}
     >
       <AnimatedBlock
