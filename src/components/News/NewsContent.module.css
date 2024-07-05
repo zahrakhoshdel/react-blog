@@ -1,0 +1,12 @@
+.news-content {
+  flex: 1;
+}
+
+.content-list {
+  grid-template-columns: minmax(30%, 1fr) minmax(30%, 1fr);
+  grid-column-gap: 48px;
+  grid-row-gap: 96px;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
