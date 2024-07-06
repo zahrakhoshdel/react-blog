@@ -1,5 +1,6 @@
 import { newsContentData } from "./newsContentData";
 import PostHeader from "./PostHeader";
+import PostFooter from "./PostFooter";
 
 import classes from "./NewsContent.module.css";
 
@@ -12,7 +13,11 @@ const NewsContent = () => {
             <div key={index} className={classes["list-item"]}>
               <div className={classes["div-block"]}>
                 <PostHeader image={ctx.image} title={ctx.title} />
-                <h3>post footer</h3>
+                <PostFooter
+                  author={ctx.author}
+                  avatar={ctx.avatar}
+                  newsDate={ctx.date}
+                />
               </div>
             </div>
           );
