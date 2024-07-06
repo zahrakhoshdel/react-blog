@@ -10,3 +10,16 @@
   grid-auto-columns: 1fr;
   display: grid;
 }
+
+.list-item {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.div-block {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  display: flex;
+}
