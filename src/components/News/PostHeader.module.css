@@ -5,7 +5,7 @@
   display: flex;
 }
 
-.post a:hover {
+.post:hover {
   color: #2c64f2;
 }
 
