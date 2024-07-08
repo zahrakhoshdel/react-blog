@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import MainHeader from "./MainHeader";
 import FeaturedSection from "./FeaturedSection";
 import NewsSection from "./NewsSection";
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
@@ -9,6 +10,7 @@ const Layout = () => {
       <MainHeader />
       <FeaturedSection />
       <NewsSection />
+      <Footer />
     </Fragment>
   );
 };

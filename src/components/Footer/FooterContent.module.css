@@ -1,0 +1,17 @@
+.footer-container {
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.footer-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+
+.spacer-large {
+  width: 100%;
+  padding-top: 5rem;
+}

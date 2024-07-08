@@ -1,0 +1,14 @@
+.footer {
+  background-color: #020f30;
+  color: #fff;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: block;
+}
+
+.footer-padding {
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  position: relative;
+}
