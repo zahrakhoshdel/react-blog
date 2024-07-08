@@ -1,3 +1,4 @@
+import FooterBottomSection from "./FooterBottomSection";
 import classes from "./FooterContent.module.css";
 import FooterTopSection from "./FooterTopSection";
 
@@ -8,7 +9,9 @@ const FooterContent = () => {
         <FooterTopSection />
       </div>
       <div className={classes["spacer-large"]}></div>
-      <div className={classes["footer-wrapper"]}>FooterBottomSection</div>
+      <div className={classes["footer-wrapper"]}>
+        <FooterBottomSection />
+      </div>
     </div>
   );
 };
