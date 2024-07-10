@@ -3,6 +3,7 @@ import MainHeader from "./MainHeader";
 import FeaturedSection from "./FeaturedSection";
 import NewsSection from "./NewsSection";
 import Footer from "./Footer";
+import BackToTopButton from "./BackToTopButton";
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
       <FeaturedSection />
       <NewsSection />
       <Footer />
+      <BackToTopButton/>
     </Fragment>
   );
 };
