@@ -1,4 +1,4 @@
-import FeaturedPosts from "../Featured/FeaturedPosts";
+import FeaturedPosts from "./FeaturedPosts";
 import classes from "./FeaturedSection.module.css";
 
 const FeaturedSection = () => {

@@ -4,10 +4,6 @@
 }
 
 .author-block a {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: transparent;
   display: inline-block;
   max-width: 100%;
 }
@@ -42,7 +38,6 @@
 .text-small {
   color: #838998;
   font-size: 0.875rem;
-  line-height: 1.375rem;
 }
 
 .spacer-tiny {

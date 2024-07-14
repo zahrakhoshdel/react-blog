@@ -19,7 +19,7 @@ const BackToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  console.log(showsScrolBtn);
+
   return (
     <div
       className={`${classes["button-container"]} ${
@@ -27,8 +27,8 @@ const BackToTopButton = () => {
       }`}
       onClick={scrollToTop}
     >
-      <a className={classes["button-circle"]}>
-        <img src={arrowUp} />
+      <a className={classes["button-circle"]} href="/">
+        <img src={arrowUp} alt="arrow-up"/>
       </a>
     </div>
   );

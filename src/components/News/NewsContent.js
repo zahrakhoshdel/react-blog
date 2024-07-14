@@ -1,4 +1,4 @@
-import { newsContentData } from "./newsContentData";
+import { postsData } from "../../data/postsData";
 import PostHeader from "./PostHeader";
 import PostFooter from "./PostFooter";
 
@@ -8,7 +8,7 @@ const NewsContent = () => {
   return (
     <div className={classes["news-content"]}>
       <div className={classes["content-list"]}>
-        {newsContentData.map((ctx, index) => {
+        {postsData.map((ctx, index) => {
           return (
             <div key={index} className={classes["list-item"]}>
               <div className={classes["div-block"]}>

@@ -16,43 +16,43 @@ const FooterBottomSection = () => {
         <div>© Very Good Ventures LLC • All Rights Reserved</div>
         <div className={classes.copyright}>
           <div>
-            <a>Privacy Policy</a>
+            <a href="/">Privacy Policy</a>
           </div>
           <div>•</div>
           <div>
-            <a>Cookie Policy</a>
+            <a href="/">Cookie Policy</a>
           </div>
         </div>
       </div>
       <div className={classes.social}>
-        <a>
+        <a href="/">
           <div className={classes["social-icon"]}>
-            <img src={x} />
+            <img src={x} alt="x-icon" />
           </div>
         </a>
-        <a>
+        <a href="/">
           <div className={classes["social-icon"]}>
-            <img src={github} />
+            <img src={github} alt="github-icon" />
           </div>
         </a>
-        <a>
+        <a href="/">
           <div className={classes["social-icon"]}>
-            <img src={linkedin} />
+            <img src={linkedin} alt="linkedin-icon" />
           </div>
         </a>
-        <a>
+        <a href="/">
           <div className={classes["social-icon"]}>
-            <img src={instagram} />
+            <img src={instagram} alt="instagram-icon" />
           </div>
         </a>
-        <a>
+        <a href="/">
           <div className={classes["social-icon"]}>
-            <img src={medium} />
+            <img src={medium} alt="medium-icon" />
           </div>
         </a>
-        <a>
+        <a href="/">
           <div className={classes["social-icon"]}>
-            <img src={rss} />
+            <img src={rss} alt="rss-icon" />
           </div>
         </a>
       </div>

@@ -28,13 +28,12 @@
   color: white;
   font-weight: 600;
   font-size: 1rem;
-}
-
-.tag-button a {
   cursor: pointer;
   text-decoration: none;
   background-color: transparent;
-  color: inherit;
+}
+
+.tag-button a {
   padding: 0.5rem 1rem;
   display: inline-block;
 }
@@ -42,6 +41,11 @@
 .tag-button .tags {
   background-color: #2448de;
 }
+
+.tag-button .tags:hover {
+  background-color: #2c64f1;
+}
+
 .tag-button .first-tag {
   background-color: #020f30;
 }

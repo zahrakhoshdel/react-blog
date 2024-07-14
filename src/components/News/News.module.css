@@ -11,6 +11,6 @@
 .news-wrapper {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-  padding-bottom: 16rem;
+  padding-bottom: 6rem;
   display: flex;
 }

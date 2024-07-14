@@ -16,14 +16,6 @@
   display: flex;
 }
 
-.panel-title a {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.2s;
-  background-color: transparent;
-}
-
 .panel-title h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -67,6 +59,10 @@
   display: flex;
 }
 
+.panel-meta-text a:hover {
+  color: #2448de;
+}
+
 .panel-footer .block {
   align-self: center;
 }
@@ -75,11 +71,6 @@
   padding-right: 10px;
   max-width: 100%;
   display: inline-block;
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.2s;
-  background-color: transparent;
 }
 
 .panel-footer .block .avatar {

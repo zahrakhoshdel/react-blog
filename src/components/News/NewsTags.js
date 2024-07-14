@@ -1,4 +1,4 @@
-import { newsTagData } from "./newsTagData";
+import { newsTagData } from "../../data/newsTagData";
 import classes from "./NewsTags.module.css";
 
 const NewsTags = () => {

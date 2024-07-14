@@ -1,23 +1,23 @@
-import postImage1 from "../../assets/crossword.png";
-import postImage2 from "../../assets/Copy of Web Vs Mobile.png";
-import postImage3 from "../../assets/Building Better Software.png";
-import postImage4 from "../../assets/Deploying Fullstack Dart to AWS, Part 3-p-500.png";
-import postImage5 from "../../assets/Google IO-p-500.png";
-import postImage6 from "../../assets/Deploying Fullstack Dart to AWS, Part 2-p-500.png";
-import postImage7 from "../../assets/The Benefits of Streamlining Mobile & Web Development-p-500.png";
-import postImage8 from "../../assets/Copy of Building a custom app p-500.png";
-import postImage9 from "../../assets/Digital Escape Room 1-p-500.png";
-import postImage10 from "../../assets/Wrapped up in Apps-p-500.png";
+import postImage1 from "../assets/crossword.png";
+import postImage2 from "../assets/Copy of Web Vs Mobile.png";
+import postImage3 from "../assets/Building Better Software.png";
+import postImage4 from "../assets/Deploying Fullstack Dart to AWS, Part 3-p-500.png";
+import postImage5 from "../assets/Google IO-p-500.png";
+import postImage6 from "../assets/Deploying Fullstack Dart to AWS, Part 2-p-500.png";
+import postImage7 from "../assets/The Benefits of Streamlining Mobile & Web Development-p-500.png";
+import postImage8 from "../assets/Copy of Building a custom app p-500.png";
+import postImage9 from "../assets/Digital Escape Room 1-p-500.png";
+import postImage10 from "../assets/Wrapped up in Apps-p-500.png";
 
-import avatar1 from "../../assets/Logomark Outlined.svg";
-import avatar2 from "../../assets/joshua-shewmaker.png";
-import avatar3 from "../../assets/Tom-Arra.png";
-import avatar4 from "../../assets/Stefan 2023-p-500.jpg";
-import avatar5 from "../../assets/Laura_Hughes-p-500.webp";
-import avatar6 from "../../assets/Jorge Coca-p-500.webp";
-import avatar7 from "../../assets/David Zemanek-p-500.webp";
+import avatar1 from "../assets/Logomark Outlined.svg";
+import avatar2 from "../assets/joshua-shewmaker.png";
+import avatar3 from "../assets/Tom-Arra.png";
+import avatar4 from "../assets/Stefan 2023-p-500.jpg";
+import avatar5 from "../assets/Laura_Hughes-p-500.webp";
+import avatar6 from "../assets/Jorge Coca-p-500.webp";
+import avatar7 from "../assets/David Zemanek-p-500.webp";
 
-export const newsContentData = [
+export const postsData = [
   {
     title: "How we built it: Creating the I/O Crossword puzzle, powered by AI",
     image: postImage1,

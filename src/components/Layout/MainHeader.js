@@ -17,15 +17,6 @@ const Header = () => {
     y.value = scrollY;
   });
 
-  const boxShadow = interpolate(
-    y.value,
-    [0, 400],
-    ["0px 0px 0px rgba(0,0,0,0.2)", "0px 4px 20px rgba(0,0,0,0.2)"],
-    {
-      extrapolate: "clamp",
-    }
-  );
-
   const imageSize = interpolate(y.value, [0, 400], [200, 100], {
     extrapolate: "clamp",
   });
@@ -42,8 +33,7 @@ const Header = () => {
         paddingRight: 100,
         position: "fixed",
         width: "100%",
-        boxShadow: boxShadow,
-        zIndex:"9999"
+        zIndex: "9999",
       }}
     >
       <AnimatedBlock

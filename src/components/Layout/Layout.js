@@ -1,18 +1,11 @@
 import { Fragment } from "react";
 import MainHeader from "./MainHeader";
-import FeaturedSection from "./FeaturedSection";
-import NewsSection from "./NewsSection";
-import Footer from "./Footer";
-import BackToTopButton from "./BackToTopButton";
 
-const Layout = () => {
+const Layout = (props) => {
   return (
     <Fragment>
       <MainHeader />
-      <FeaturedSection />
-      <NewsSection />
-      <Footer />
-      <BackToTopButton/>
+      <main>{props.children}</main>
     </Fragment>
   );
 };

@@ -7,10 +7,10 @@ const FooterTopSection = () => {
   return (
     <Fragment>
       <div>
-        <img className={classes["footer-logo"]} src={logo} />
+        <img className={classes["footer-logo"]} src={logo} alt="logo"/>
         <div className={classes["padding-medium"]}></div>
         <div className={classes["hubspot-button"]}>
-          <a className={classes["button-link"]}> Let’s Talk </a>
+          <a href="/" className={classes["button-link"]}> Let’s Talk </a>
         </div>
       </div>
       <div className={classes["link-wrapper"]}>

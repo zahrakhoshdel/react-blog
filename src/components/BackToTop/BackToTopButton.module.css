@@ -7,19 +7,16 @@
   position: fixed;
   bottom: 24px;
   right: 24px;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 .button-container.visible {
   display: flex;
+  transform: scale3d(1, 1, 1);
 }
 
 .button-container.hide {
   display: none;
-}
-
-.button-container a {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .button-circle {
@@ -32,6 +29,10 @@
   transition: 0.2s;
   display: flex;
   max-width: 100%;
+}
+
+.button-circle:hover {
+  background-color: #bcc6cc;
 }
 
 .button-circle img {
