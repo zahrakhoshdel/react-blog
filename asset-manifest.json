@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.3dbaa1db.css",
+    "main.js": "/react-blog/static/js/main.81e94df1.js",
+    "static/media/crossword.png": "/react-blog/static/media/crossword.9e7a4e479d12c7caafc3.png",
+    "static/media/Copy of Web Vs Mobile.png": "/react-blog/static/media/Copy of Web Vs Mobile.4789dd9bb03d629aa7dd.png",
+    "static/media/Building Better Software.png": "/react-blog/static/media/Building Better Software.1ec605b4f3fcbce36af5.png",
+    "static/media/Google IO-p-500.png": "/react-blog/static/media/Google IO-p-500.48164311bd161ac818ff.png",
+    "static/media/Digital Escape Room 1-p-500.png": "/react-blog/static/media/Digital Escape Room 1-p-500.20ccafa2bddfedf83205.png",
+    "static/media/Stefan 2023-p-500.jpg": "/react-blog/static/media/Stefan 2023-p-500.f9e1c1b25e2504b95916.jpg",
+    "static/media/The Benefits of Streamlining Mobile & Web Development-p-500.png": "/react-blog/static/media/The Benefits of Streamlining Mobile & Web Development-p-500.100e35ab6c2aabffaa8b.png",
+    "static/media/Wrapped up in Apps-p-500.png": "/react-blog/static/media/Wrapped up in Apps-p-500.8f8ff5a9ede2572568f1.png",
+    "static/media/Jorge Coca-p-500.webp": "/react-blog/static/media/Jorge Coca-p-500.f27e4e831f9a2a494f9f.webp",
+    "static/media/Deploying Fullstack Dart to AWS, Part 2-p-500.png": "/react-blog/static/media/Deploying Fullstack Dart to AWS, Part 2-p-500.0ae099dccdf8046acc46.png",
+    "static/media/Deploying Fullstack Dart to AWS, Part 3-p-500.png": "/react-blog/static/media/Deploying Fullstack Dart to AWS, Part 3-p-500.ffca269df961e1792302.png",
+    "static/media/logo-vgv-white.svg": "/react-blog/static/media/logo-vgv-white.bdd8cb276f8d388e0868058bc893711c.svg",
+    "static/media/Tom-Arra.png": "/react-blog/static/media/Tom-Arra.8f399ca166ac675c0a03.png",
+    "static/media/David Zemanek-p-500.webp": "/react-blog/static/media/David Zemanek-p-500.5c5f1edb1b6c6208e5e0.webp",
+    "static/media/Copy of Building a custom app p-500.png": "/react-blog/static/media/Copy of Building a custom app p-500.da9489b497e32d39b90d.png",
+    "static/media/Laura_Hughes-p-500.webp": "/react-blog/static/media/Laura_Hughes-p-500.fbc862c0939f6fa4af69.webp",
+    "static/media/Logomark Outlined.svg": "/react-blog/static/media/Logomark Outlined.fa2724727c7af8ce6c0ea92cea502024.svg",
+    "static/media/svg-image-instagram.svg": "/react-blog/static/media/svg-image-instagram.68c642d15d0ad5e9d22370ace175265c.svg",
+    "static/media/svg-image-github.svg": "/react-blog/static/media/svg-image-github.e24ecea4225001bcf8cbd7c47d6b16b7.svg",
+    "static/media/svg-image-medium.svg": "/react-blog/static/media/svg-image-medium.7b68287c96b2734466856a4019166daf.svg",
+    "static/media/svg-image-linkedin.svg": "/react-blog/static/media/svg-image-linkedin.a71c7890119f873fd34a885f14e9e3ab.svg",
+    "static/media/svg-image-rss.svg": "/react-blog/static/media/svg-image-rss.ee0def8189753d5159a82596fefd065e.svg",
+    "index.html": "/react-blog/index.html",
+    "static/media/svg-image-x.svg": "/react-blog/static/media/svg-image-x.4369f65d273e8e963076c3ccefb58a09.svg",
+    "static/media/arrow-up.svg": "/react-blog/static/media/arrow-up.2c0bfb6c96d31d9cdbf4efc991b27d9b.svg",
+    "main.3dbaa1db.css.map": "/react-blog/static/css/main.3dbaa1db.css.map",
+    "main.81e94df1.js.map": "/react-blog/static/js/main.81e94df1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dbaa1db.css",
+    "static/js/main.81e94df1.js"
+  ]
+}
