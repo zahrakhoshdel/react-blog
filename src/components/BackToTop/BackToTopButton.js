@@ -27,7 +27,7 @@ const BackToTopButton = () => {
       }`}
       onClick={scrollToTop}
     >
-      <a className={classes["button-circle"]} href="/">
+      <a className={classes["button-circle"]} href="/react-blog">
         <img src={arrowUp} alt="arrow-up"/>
       </a>
     </div>
