@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-blog/static/css/main.3dbaa1db.css",
-    "main.js": "/react-blog/static/js/main.81e94df1.js",
+    "main.js": "/react-blog/static/js/main.e94e185d.js",
     "static/media/crossword.png": "/react-blog/static/media/crossword.9e7a4e479d12c7caafc3.png",
     "static/media/Copy of Web Vs Mobile.png": "/react-blog/static/media/Copy of Web Vs Mobile.4789dd9bb03d629aa7dd.png",
     "static/media/Building Better Software.png": "/react-blog/static/media/Building Better Software.1ec605b4f3fcbce36af5.png",
@@ -28,10 +28,10 @@
     "static/media/svg-image-x.svg": "/react-blog/static/media/svg-image-x.4369f65d273e8e963076c3ccefb58a09.svg",
     "static/media/arrow-up.svg": "/react-blog/static/media/arrow-up.2c0bfb6c96d31d9cdbf4efc991b27d9b.svg",
     "main.3dbaa1db.css.map": "/react-blog/static/css/main.3dbaa1db.css.map",
-    "main.81e94df1.js.map": "/react-blog/static/js/main.81e94df1.js.map"
+    "main.e94e185d.js.map": "/react-blog/static/js/main.e94e185d.js.map"
   },
   "entrypoints": [
     "static/css/main.3dbaa1db.css",
-    "static/js/main.81e94df1.js"
+    "static/js/main.e94e185d.js"
   ]
 }
